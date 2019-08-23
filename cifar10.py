@@ -27,7 +27,7 @@ parser.add_argument('--seed', type=int, default=10, help="seed numble")
 parser.add_argument('--batch_size', type=int, default=32, help="batch_size")
 parser.add_argument('--dataset', type=str, default='cifar10', help="dataset name")
 parser.add_argument('--lr', type=float, default='0.001', help="the learning rate")
-parser.add_argument('--re', type=float, default='0.3', help="the Regularization coefficient")
+parser.add_argument('--re', type=float, default='0.1', help="the Regularization coefficient")
 parser.add_argument('--classifier_type', type=str, default='AL',
                     help='Which classifier for train. (MCP, AL, ARC, L)')
 parser.add_argument('--gpu_id', default=2, type=int, help='id(s) for CUDA_VISIBLE_DEVICES')
